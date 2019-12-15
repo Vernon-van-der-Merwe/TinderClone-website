@@ -1,17 +1,70 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/* First section */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding:0;
+    padding-bottom: 2.5rem;
+}
+.nav-item{
+    padding: 0 1.5rem;
+}
 #title {
     background-color: #fe346e;
 }
 #title-title{
-
-    color: white;
+    font-weight: 3.5rem;
+    color: rgb(255, 255, 255);
 }
 .container-fluid {
     padding: 3% 13%;
 }
 #iphone-img{
-    width: 62%;
+    padding-top: 4.5rem;
+    width: 50%;
     transform: rotate(30deg);
+
+}
+    /* Download buttons */
+.download-button{
+    margin: 10% 3% 5% 0;
+    padding: 14px;
+}
+
+
+/* Second Section */
+
+.sec-2{
+    text-align: center;
+    margin: 15% 0 15% 0;
+}
+.sec-2 h3{
+        font-weight: 900;
+        padding-top: 2rem;
+
+}
+.icon{
+    font-size: 7em;
+    color: salmon;
+}
+
+/* third section */
+
+#testimonials{
+    background-color: salmon;
+}
+
+#testimonials .carousel-item{
+    padding: 10rem;
+}
+#testimonials #profile-pic{
+    border-radius: 100%;
+    width: 8rem;
 }
