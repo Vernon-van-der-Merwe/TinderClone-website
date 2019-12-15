@@ -24,13 +24,12 @@ body{
     color: rgb(255, 255, 255);
 }
 .container-fluid {
-    padding: 3% 13%;
+    padding: 3% 13% ;
 }
 #iphone-img{
-    padding-top: 4.5rem;
-    width: 50%;
+    padding: 0 0 2.5rem 10rem ;
+    width: 80%;
     transform: rotate(30deg);
-
 }
     /* Download buttons */
 .download-button{
