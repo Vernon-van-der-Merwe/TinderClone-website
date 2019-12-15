@@ -1,0 +1,17 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title {
+    background-color: #fe346e;
+}
+#title-title{
+
+    color: white;
+}
+.container-fluid {
+    padding: 3% 13%;
+}
+#iphone-img{
+    width: 62%;
+    transform: rotate(30deg);
+}
