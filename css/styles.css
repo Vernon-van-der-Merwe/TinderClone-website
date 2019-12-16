@@ -25,12 +25,14 @@ body {
     color: rgb(255, 255, 255);
 }
 .container-fluid {
-    padding: 3% 13% ;
+    padding: 3% 13% 0 13% ;
 }
 #iphone-img {
-    padding: 0 0 2.5rem 10rem ;
+    padding: 0 0 0rem 10rem ;
     width: 80%;
     transform: rotate(30deg);
+    position: relative;
+    z-index: 0;
 }
     /* Download buttons */
 .download-button {
@@ -40,7 +42,9 @@ body {
 
 
 /* Second Section */
-
+#features{
+    background-color: white;
+}
 .sec-2 {
     text-align: center;
     margin: 15% 0 15% 0;
@@ -96,6 +100,7 @@ body {
 #pricing {
     font-family: 'Ubuntu', sans-serif;
         text-align: center;
+        padding: 8% 0 ;
 }
 .price-card {
     width: 100%;
@@ -116,10 +121,11 @@ body {
     text-align: center;
 }
 #cta .container-fluid {
-    padding: 8s%;
+    padding: 10% 0;
 }
 #cta H3 {
     color: white;
+    font-size: 2.5rem;
 }
 .copyright {
     text-align: center;
